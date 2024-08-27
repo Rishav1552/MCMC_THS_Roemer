@@ -1,5 +1,5 @@
 
-# MCMC on time series data of GW burst from Triple Hierarchical System
+## MCMC Sampler on time series data of GW burst from Triple Hierarchical System
 
 The code allows the estimation of eigth orbital parameters given the GW burst data from the system. It uses roemer delay in the time data of these bursts to infer these parameters:
 
