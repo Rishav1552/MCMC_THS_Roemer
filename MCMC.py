@@ -19,6 +19,7 @@ import h5py
 import corner
 import multiprocessing
 import sys
+import argparse
 
 au = 1.496e+13
 solar_mass = 1.989e+33
@@ -51,12 +52,30 @@ def kepler_series_solution(M, e, terms=30):
     return E
 
 
-T_burst=np.loadtxt("time_data/mid_eccen_more_burst_2.dat")
+# Initialize the argument parser
+parser = argparse.ArgumentParser(description="To include time series data and indexes")
+
+# Add arguments for 2 input files and 1 name foe output file
+parser.add_argument('time_series', type=str, help='Path to the first text file')
+parser.add_argument('index', type=str, help='Path to the second text file')
+parser.add_argument('output', type=str, help='Path to the second text file')
+
+# Parse the arguments
+args = parser.parse_args()
+
+with open(args.time_series, 'r') as f1:
+    T_burst=np.loadtxt(f1)
+
+with open(args.index, 'r') as f2:
+    index=np.loadtxt(f2)
+    index=np.array(index,dtype=int)
+
+#Making first value of series zero
+
 T_burst=T_burst-T_burst[0]
-print(T_burst)
-index=np.loadtxt("indices/index_mid_more_burst_eccent_2.dat")
-index=np.array(index,dtype=int)
-print(index)
+print("Time burst\n",T_burst)
+
+print("index\n",index)
 
 def to_minimize(constants):  
     """The cost function which should be minimized for
@@ -192,7 +211,7 @@ if not os.path.exists(file_path):
     os.makedirs(file_path)
 
 # Save the NumPy array to a text file in the specified directory
-rname="Result_mod_eecen_5"
+rname=args.output
 file_path = os.path.join(file_path, rname+".txt")
 np.savetxt(file_path, samples_array)
 

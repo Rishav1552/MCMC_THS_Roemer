@@ -18,6 +18,7 @@ import h5py
 import corner
 import multiprocessing
 import sys
+import argparse
 
 au = 1.496e+13
 solar_mass = 1.989e+33
@@ -74,7 +75,13 @@ def create_time_burst(M_phase,a_out,w_out,time_in,e,i_in,theta_s,phi_s,cycle):
               T_burst[i] = t_calculated - RD_LISA
      T_burst-=T_burst[0]
      return T_burst,n
-cycle=1.5
+
+parser = argparse.ArgumentParser(description="Number of cycles")
+parser.add_argument('number', type=float, help='An float to be used in the as cycle of doppler modulatoin')
+args = parser.parse_args()
+cycle = args.number
+
+print("cycle={}\n".format(cycle))
 
 T_burst,n=create_time_burst(0,125,0.0,0.325e6,0.4,np.pi/4,np.pi/5,0,cycle)
 
@@ -215,7 +222,7 @@ if not os.path.exists(file_path):
     os.makedirs(file_path)
 
 # Save the NumPy array to a text file in the specified directory
-rname="1_5__cycle_mod_eccen"
+rname=str(cycle)+"_cycle_mod_eccen"
 file_path = os.path.join(file_path, rname+".txt")
 np.savetxt(file_path, samples_array)
 
