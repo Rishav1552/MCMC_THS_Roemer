@@ -1,3 +1,0 @@
-DEMOve does not work for our example of mod eccentricity one cycle.
-RGB method throws an erro
-
