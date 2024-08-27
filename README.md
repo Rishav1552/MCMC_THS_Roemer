@@ -22,7 +22,7 @@ Create a separate python environment with python 3.10. If you are using conda yo
 Clone the repository at the desired location:
 
 ```bash
-  git clone 
+  git clone https://github.com/Rishav1552/MCMC_THS_Roemer.git
 ```
 Install the necessary libraries and packages
 ```bash
