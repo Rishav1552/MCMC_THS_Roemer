@@ -18,7 +18,6 @@ schwimmbad==0.3.1
 scikit_learn==1.5.0
 scipy==1.13.1
 six==1.16.0
-scikit-learn
 threadpoolctl==3.5.0
 tzdata==2024.1
 asttokens==2.4.1
