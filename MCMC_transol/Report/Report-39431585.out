@@ -1,0 +1,135 @@
+created virtual environment CPython3.10.13.final.0-64 in 1491ms
+  creator CPython3Posix(dest=/localscratch/ragrawal.39431585.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/ragrawal/.local/share/virtualenv)
+    added seed packages: pip==24.1.2, setuptools==70.3.0, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /localscratch/ragrawal.39431585.0/env/lib/python3.10/site-packages (24.1.2)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/contourpy-1.2.1+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/corner-2.2.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.12.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 3))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/emcee-3.1.4+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 4))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.53.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 5))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/h5py-3.11.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 6))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/joblib-1.4.2+computecanada-py3-none-any.whl (from -r requirements.txt (line 7))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/kiwisolver-1.4.5+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 8))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/matplotlib-3.9.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 9))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/numpy-1.26.4+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 10))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-24.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 11))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/pandas-2.2.1+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 12))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/pillow-10.3.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 13))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.1.2+computecanada-py3-none-any.whl (from -r requirements.txt (line 14))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.9.0.post0+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 15))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pytz-2024.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 16))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/schwimmbad-0.3.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 17))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/scikit_learn-1.5.0+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 18))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/scipy-1.13.1+computecanada-cp310-cp310-linux_x86_64.whl (from -r requirements.txt (line 19))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 20))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sklearn-0.0+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 21))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/threadpoolctl-3.5.0+computecanada-py3-none-any.whl (from -r requirements.txt (line 22))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tzdata-2024.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 23))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/asttokens-2.4.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 24))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/decorator-5.1.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 25))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/exceptiongroup-1.2.1+computecanada-py3-none-any.whl (from -r requirements.txt (line 26))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/executing-2.0.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 27))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/ipython-8.25.0+computecanada-py3-none-any.whl (from -r requirements.txt (line 28))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jedi-0.19.1+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 29))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/matplotlib_inline-0.1.7+computecanada-py3-none-any.whl (from -r requirements.txt (line 30))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/parso-0.8.4+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 31))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pexpect-4.9.0+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 32))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/prompt_toolkit-3.0.47+computecanada-py3-none-any.whl (from -r requirements.txt (line 33))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/ptyprocess-0.7.0+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 34))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pure_eval-0.2.2+computecanada-py3-none-any.whl (from -r requirements.txt (line 35))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pygments-2.18.0+computecanada-py3-none-any.whl (from -r requirements.txt (line 36))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/stack_data-0.6.3+computecanada-py3-none-any.whl (from -r requirements.txt (line 38))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/traitlets-5.14.3+computecanada-py3-none-any.whl (from -r requirements.txt (line 39))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.12.2+computecanada-py3-none-any.whl (from -r requirements.txt (line 40))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/wcwidth-0.2.13+computecanada-py2.py3-none-any.whl (from -r requirements.txt (line 41))
+Installing collected packages: wcwidth, pytz, pure_eval, ptyprocess, tzdata, typing_extensions, traitlets, threadpoolctl, six, schwimmbad, pyparsing, pygments, prompt_toolkit, pillow, pexpect, parso, packaging, numpy, kiwisolver, joblib, fonttools, executing, exceptiongroup, decorator, cycler, scipy, python_dateutil, matplotlib_inline, jedi, h5py, emcee, contourpy, asttokens, stack_data, scikit_learn, pandas, matplotlib, sklearn, ipython, corner
+Successfully installed asttokens-2.4.1+computecanada contourpy-1.2.1+computecanada corner-2.2.1+computecanada cycler-0.12.1+computecanada decorator-5.1.1+computecanada emcee-3.1.4+computecanada exceptiongroup-1.2.1+computecanada executing-2.0.1+computecanada fonttools-4.53.0+computecanada h5py-3.11.0+computecanada ipython-8.25.0+computecanada jedi-0.19.1+computecanada joblib-1.4.2+computecanada kiwisolver-1.4.5+computecanada matplotlib-3.9.0+computecanada matplotlib_inline-0.1.7+computecanada numpy-1.26.4+computecanada packaging-24.1+computecanada pandas-2.2.1+computecanada parso-0.8.4+computecanada pexpect-4.9.0+computecanada pillow-10.3.0+computecanada prompt_toolkit-3.0.47+computecanada ptyprocess-0.7.0+computecanada pure_eval-0.2.2+computecanada pygments-2.18.0+computecanada pyparsing-3.1.2+computecanada python_dateutil-2.9.0.post0+computecanada pytz-2024.1+computecanada schwimmbad-0.3.1+computecanada scikit_learn-1.5.0+computecanada scipy-1.13.1+computecanada six-1.16.0+computecanada sklearn-0.0+computecanada stack_data-0.6.3+computecanada threadpoolctl-3.5.0+computecanada traitlets-5.14.3+computecanada typing_extensions-4.12.2+computecanada tzdata-2024.1+computecanada wcwidth-0.2.13+computecanada
+It is for cycle
+ 1
+100
+[       0.           211090.53010667   422266.27509892   633521.23661321
+   844849.34405753  1056244.48258253  1267700.51755446  1479211.31577851
+  1690770.76373643  1902372.7831084   2114011.34384827  2325680.47507499
+  2537374.27403339  2749086.91336428  2960812.64691039  3172545.814269
+  3384280.84428775  3596012.25768497  3807734.6689619   4019442.78776147
+  4231131.41981596  4442795.4676154   4654429.93091925  4866029.90722547
+  5077590.59230456  5289107.28090048  5500575.36769563  5711990.34863433
+  5923347.82269621  6134643.49421029  6345873.17579912  6557032.79204326
+  6768118.38395631  6979126.114362    7190052.27426604  7400893.2903162
+  7611645.73344508  7822306.32878987  8032871.96698255  8243339.71690129
+  8453706.83996948  8663970.80608152  8874129.31122423  9084180.29684797
+  9294121.97102249  9503952.83138681  9713671.68987066  9923277.69912481
+ 10132770.38054875 10342149.65374606 10551415.8671685  10760569.82963055
+ 10969612.8422859  11178546.73055694 11387373.87540017 11596097.24317541
+ 11804720.41327049 12013247.60251917 12221683.6853459  12430034.20848431
+ 12638305.39905647 12846504.16477703 13054638.08507105 13262715.39197688
+ 13470744.93985425 13678736.16313847 13886699.02167688 14094643.93354856
+ 14302581.69569448 14510523.39315466 14718480.29820022 14926463.76113104
+ 15134485.09495382 15342555.45652699 15550685.72702747 15758886.39473639
+ 15967167.44313904 16175538.24718475 16384007.48026108 16592583.034023
+ 16801271.95270809 17010080.38299993 17219013.53990973 17428075.68857004
+ 17637270.14130593 17846599.26889584 18056064.5245741  18265666.47906966
+ 18475404.86482104 18685278.62745074 18895285.98261021 19105424.47640511
+ 19315691.0477619  19526082.09128505 19736593.51936241 19947220.82249231
+ 20157959.12701751 20368803.24965083 20579747.74835842 20790786.96932683]
+You must install the tqdm library to use progress indicators with emcee
+Acceptance ratio
+ [0.07505   0.0768375 0.07305   0.0766    0.0736125 0.0804625 0.0677125
+ 0.079325  0.075325  0.07105   0.06625   0.0706375 0.0652875 0.0699875
+ 0.0613125 0.0706    0.0729125 0.06055   0.0757375 0.0724    0.07325
+ 0.0694875 0.0702625 0.0726375 0.072725  0.074725  0.0705625 0.07665
+ 0.080875  0.069975  0.0667625 0.058825  0.0788125 0.072775  0.0740875
+ 0.0747625 0.0776125 0.0609    0.0766875 0.06385   0.0685625 0.0677
+ 0.0740625 0.0792875 0.0808875 0.0789125 0.0783875 0.0754875 0.07305
+ 0.0683    0.0724    0.07575   0.0730375 0.0749    0.0706875 0.0752625
+ 0.062725  0.074     0.07075   0.0813    0.0662875 0.0716    0.0722
+ 0.0747625 0.0691625 0.0743    0.072875  0.0747125 0.070425  0.0719
+ 0.069175  0.076375  0.0742125 0.0806125 0.0680125 0.070125  0.0695625
+ 0.0662    0.065525  0.0776875 0.0654125 0.0697625 0.0692125 0.078325
+ 0.0704625 0.0700125 0.08075   0.0747625 0.0691    0.0754875 0.073575
+ 0.0772875 0.0686875 0.053675  0.0724    0.072325  0.06455   0.0717
+ 0.0642375 0.0669875 0.0711125 0.0712375 0.0721625 0.0729    0.0699
+ 0.0791125 0.0705125 0.0717625 0.072775  0.07885   0.0743375 0.0738
+ 0.0637    0.072525  0.0774875 0.0732625 0.07335   0.0657125 0.0619
+ 0.07535   0.0660875 0.07545   0.079275  0.06395   0.069975  0.0643125
+ 0.078575  0.0573375]
+Error calculating autocorrelation time: The chain is shorter than 50 times the integrated autocorrelation time for 3 parameter(s). Use this estimate with caution and run a longer chain!
+N/50 = 1600;
+tau: [1331.92830063  983.74104168 1654.16698349 1071.2523584  1076.62059606
+ 1323.5490781  5310.38566355 7344.47564265]
+Error calculating autocorrelation time: The chain is shorter than 50 times the integrated autocorrelation time for 3 parameter(s). Use this estimate with caution and run a longer chain!
+N/50 = 1600;
+tau: [1331.92830063  983.74104168 1654.16698349 1071.2523584  1076.62059606
+ 1323.5490781  5310.38566355 7344.47564265]
+[0.07505   0.0768375 0.07305   0.0766    0.0736125 0.0804625 0.0677125
+ 0.079325  0.075325  0.07105   0.06625   0.0706375 0.0652875 0.0699875
+ 0.0613125 0.0706    0.0729125 0.06055   0.0757375 0.0724    0.07325
+ 0.0694875 0.0702625 0.0726375 0.072725  0.074725  0.0705625 0.07665
+ 0.080875  0.069975  0.0667625 0.058825  0.0788125 0.072775  0.0740875
+ 0.0747625 0.0776125 0.0609    0.0766875 0.06385   0.0685625 0.0677
+ 0.0740625 0.0792875 0.0808875 0.0789125 0.0783875 0.0754875 0.07305
+ 0.0683    0.0724    0.07575   0.0730375 0.0749    0.0706875 0.0752625
+ 0.062725  0.074     0.07075   0.0813    0.0662875 0.0716    0.0722
+ 0.0747625 0.0691625 0.0743    0.072875  0.0747125 0.070425  0.0719
+ 0.069175  0.076375  0.0742125 0.0806125 0.0680125 0.070125  0.0695625
+ 0.0662    0.065525  0.0776875 0.0654125 0.0697625 0.0692125 0.078325
+ 0.0704625 0.0700125 0.08075   0.0747625 0.0691    0.0754875 0.073575
+ 0.0772875 0.0686875 0.053675  0.0724    0.072325  0.06455   0.0717
+ 0.0642375 0.0669875 0.0711125 0.0712375 0.0721625 0.0729    0.0699
+ 0.0791125 0.0705125 0.0717625 0.072775  0.07885   0.0743375 0.0738
+ 0.0637    0.072525  0.0774875 0.0732625 0.07335   0.0657125 0.0619
+ 0.07535   0.0660875 0.07545   0.079275  0.06395   0.069975  0.0643125
+ 0.078575  0.0573375]
+burn-in: 4000
+
+thin: 200
+
+flat chain shape: (48640, 8)
+
+flat log prob shape: (48640,)
+
+Samples saved to Results_for_time_req/one_complete_cycle_3.txt

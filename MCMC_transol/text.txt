@@ -1,0 +1,3 @@
+#use this for documentation
+
+mod result for 3/4 and one complete has one chanage. psi_source was changed from o to pi from 0 t0 2pi.
